@@ -19,6 +19,9 @@ body{
     .login-signup{
         max-width: 90vw !important;
     }
+    .pic-div img{
+        width: 15rem;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
