@@ -21,7 +21,7 @@
         for (let i = 0; i < data.length; i++) {
             if (mail == data[i].email && pass == data[i].password) {
 
-                  localStorage.setItem("name", data[i].name)
+                  localStorage.setItem("name", data[i].name1)
                   wlc_text.textContent = `Wlcome back ${localStorage.getItem("name")}!`
                   (window.location.href = 'book.html'); 
             }
